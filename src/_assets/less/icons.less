@@ -1,0 +1,60 @@
+// Icons
+// -------------
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'StorytlrIcons';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 5px;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: 120%;
+  vertical-align: middle;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: -30;
+  font-size: 50px;
+}
+
+.icon-big {
+  font-size: 125px;
+  color: @STblue2;
+  .transition(font-size .6s cubic-bezier(0.680, -0.550, 0.265, 1.550));
+}
+
+.icon-huge {
+  margin-top: -20px;
+  padding-top: 45px;
+  margin-right: 0px;
+  text-align: center;
+  font-size: 250px;
+  .transition(font-size .6s cubic-bezier(0.680, -0.550, 0.265, 1.550));
+}
+
+.reduce-margin-bottom {
+  line-height: 80%;
+}
+
+.icon-book:before               { content: "a"; }
+.icon-bunny:before              { content: "b"; }
+.icon-cowboy:before             { content: "c"; }
+.icon-helmet:before             { content: "d"; }
+.icon-jew:before                { content: "e"; }
+.icon-man-sunglasses:before     { content: "f"; }
+.icon-man-glasses:before        { content: "g"; }
+.icon-darth-vader:before        { content: "h"; }
+.icon-lady:before               { content: "i"; }
+
+@media (max-width: 700px) {
+  .icon-huge {
+    font-size: 150px
+  }
+  .icon-big {
+    font-size: 80px
+  }
+}

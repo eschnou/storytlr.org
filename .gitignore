@@ -1,4 +1,19 @@
+# Eclipse generated files #
+/.classpath
 .buildpath
 .project
-.settings
+.settings/
+
+# OS generated files #
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+/*.sh
+
+# Build files #
+/target/
